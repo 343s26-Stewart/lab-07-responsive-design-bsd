@@ -1,0 +1,27 @@
+@media (width <=374px) {
+    .side {
+        display: none;
+    }
+
+    .main-head {
+        display: none;
+    }
+
+    .main-footer {
+        display: none;
+    }
+
+    .ad {
+        display: none;
+    }
+
+    .wrapper {
+        grid-template-areas:
+            "content"
+            "nav";
+
+        &>* {
+            padding: 0.5rem;
+        }
+    }
+}
