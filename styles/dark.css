@@ -1,0 +1,76 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background: black;
+        color: white;
+    }
+
+    body.debug.jmu.wrapper header.main-head {
+        background-color: #956F0F;
+    }
+
+    body.debug.jmu.wrapper nav.main-nav {
+        background-color: #B25B24;
+    }
+
+    body.debug.jmu.wrapper aside.side {
+        background-color: #3D75A4;
+    }
+
+    body.debug.jmu.wrapper div.ad {
+        background-color: #6A7548;
+    }
+
+    body.debug.jmu.wrapper footer.main-footer {
+        background-color: #9F6838;
+    }
+}
+
+body.dark.jmu {
+    background: black;
+    color: white;
+}
+
+body.dark.jmu header.main-head {
+    background-color: #956F0F;
+}
+
+body.dark.jmu nav.main-nav {
+    background-color: #B25B24;
+}
+
+body.dark.jmu aside.side {
+    background-color: #3D75A4;
+}
+
+body.dark.jmu div.ad {
+    background-color: #6A7548;
+}
+
+body.dark.jmu footer.main-footer {
+    background-color: #9F6838;
+}
+
+body.light.jmu {
+    background: white;
+    color: black;
+}
+
+body.light.jmu.debug header.main-head {
+    background-color: #EEC250;
+}
+
+body.light.jmu.debug nav.main-nav {
+    background-color: #DA834C;
+}
+
+body.light.jmu.debug aside.side {
+    background-color: #9FC2DC;
+}
+
+body.light.jmu.debug div.ad {
+    background-color: #8E9F63;
+}
+
+body.light.jmu.debug footer.main-footer {
+    background-color: #E9D8C5;
+}
